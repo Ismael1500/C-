@@ -19,7 +19,7 @@ cin>>p;
     if(p==1){
     cout<<" ==>  Cuantos contactos quieres agregar?:    "<<endl;
             cin>>personas;
-            datos numero[personas];
+            contacto numero[personas];
             for(n=0;n<personas;n++){
                 cout<<"Inserta los datos del contacto que vas a agregar a continuacion"<<endl;
                 cout<<"Contacto "<<n+1<<" :"<<endl;
