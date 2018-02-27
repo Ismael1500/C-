@@ -6,6 +6,7 @@ using namespace std;
 int personas;
 int n;
 int p;
+int salir;
 int main(){
     //declaro una estructura segun los datos que querre darle a los contactos
     struct contacto{
@@ -46,7 +47,7 @@ if(p==2){
     return 0;
 }
 else{
-    cout<<"No has elegido correctamente, vuelve a elegir"<<endl;
+    cout<<"No has elegido correctamente, vuelve a elegir (1)-(2)"<<endl;
     cin>>p;
     if(p==1){
     cout<<" ==>  Cuantos contactos quieres agregar?:    "<<endl;
@@ -75,5 +76,10 @@ return 0;
 if(p==2){
     return 0;
 }
+    else{
+    cout<<"Se acabo tu plazo de eleccion "<<endl;
+    cin>>salir;
+    return 0;
+}   
 }
 }
