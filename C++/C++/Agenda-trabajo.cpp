@@ -43,7 +43,7 @@ cin>>p;
                           file.close();
     cout<<"bye bye "<<endl;
     cin>>salir;
-return 0;
+    return 0;
 }
 if(p==2){
     cout<<"bye bye "<<endl;
@@ -75,11 +75,13 @@ else{
                           file<<"  Correo contacto"<<numero[n].correo<<endl;
                           }
                           file.close();
-return 0;
     cout<<"bye bye "<<endl;
     cin>>salir;
+    return 0;
 }
 if(p==2){
+    cout<<"bye bye "<<endl;
+    cin>>salir;     
     return 0;
 }
     else{
